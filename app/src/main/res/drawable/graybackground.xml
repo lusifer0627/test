@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <!--基本可以畫出長方形、橢圓形、圓環以及線條等等的類型-->
+        <shape
+            android:shape="rectangle">
+            <!--漸層顏色-->
+            <gradient
+                android:angle="90"
+                android:startColor="#FFADADAD"
+                android:endColor="#FFADADAD"  />
+        </shape>
+    </item>
+</selector>

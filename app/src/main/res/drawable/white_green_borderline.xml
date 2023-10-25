@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="rectangle">
+            <!--設定邊角弧度-->
+            <corners
+                android:radius="10dip" />
+            <!--邊框框線-->
+            <stroke
+                android:width="2dip"
+                android:color="#FF009900" />
+            <gradient
+                android:angle="90"
+                android:startColor="#FFFFFFFF"
+                android:endColor="#FFFFFFFF"  />
+        </shape>
+    </item>
+</selector>
